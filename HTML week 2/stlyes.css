@@ -1,0 +1,22 @@
+body
+.TopDiv{
+    margin: 0px 0px 10px;
+    border: black dashed 1px;
+    
+}
+
+h1{
+    color: #D61800;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+h2{
+    color: #808080;
+    
+}
+
+.BottomDiv{
+    border: red solid 1px;
+    padding: 0px 20px 20px;
+}

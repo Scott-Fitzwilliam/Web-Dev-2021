@@ -1,0 +1,67 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Container{
+    max-width: 600px; 
+    margin: 0px auto;
+    border-right: #EFEFEF solid 1px;
+    
+}
+
+.Header{
+    background-color:#8EBA3E;
+    padding: 60px;
+    text-align: center;
+}
+
+.Header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Main{
+    padding: 25px 25px 50px;
+}
+
+.Main h1{
+    margin: 0 0 25px;
+    font-weight: 700;
+}
+
+.Main a{
+    color: #8EBA3E;
+    text-decoration: none;
+}
+
+.Button{
+    text-align: center;
+    margin: 40px;
+}
+
+.Button a{
+    background-color: #8EBA3E;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.Footer{
+    text-align: center;
+    background-color: #EFEFEF;
+    padding: 30px 0 30px;
+    color: #bbbbbb;
+}
+.Footer p{
+    margin: 0 0 5px;
+}
+
+.Footer a{
+    color: #777777;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
