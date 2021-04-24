@@ -1,0 +1,106 @@
+*{
+box-sizing: border-box;
+}
+
+html, body{
+    background-color: #3E4C57;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    width: 600px;
+    background-color: darkgray;
+    color: white;
+}
+
+.Box a{
+    text-decoration: none;
+}
+
+.SocialBanner{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.SocialBanner a{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+}
+
+
+.facebook{
+    display: flex;
+    align-items: center;
+    background-color: #3D5998;
+    
+}
+
+.twitter{
+    display: flex;
+    align-items: center;
+    background-color: #56ABEA;
+}
+
+
+.icon{
+    height: 25px;
+    padding: 0 35px 0  15px;
+}
+
+.facebook:hover, .twitter:hover{
+    background-color: blue;
+}
+
+
+.test{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+input{
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    border: none;
+}
+
+input[type="text"]{
+
+}
+
+
+.double{
+    flex-basis: 49.8%;
+    margin-top: 10px;
+}
+.devider{
+    padding: 0 0.2%;
+}
+
+.single{
+    flex-basis: 100%;
+}
+
+input[type="submit"]{
+    flex-basis: 100%;
+    background-color: #42A36D ;
+    border: none;
+    color: white;
+}
