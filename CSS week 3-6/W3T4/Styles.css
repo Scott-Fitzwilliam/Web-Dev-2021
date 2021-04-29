@@ -21,13 +21,16 @@ html, body{
     justify-content: center;
     max-width: 600px;
     width: 600px;
-    background-color: darkgray;
     color: white;
 }
 
 .Box a{
     text-decoration: none;
+    color: #3992af;
 }
+
+.test a:hover{
+    text-decoration: underline; color: cyan;}
 
 .SocialBanner{
     display: flex;
@@ -81,10 +84,10 @@ input{
     border: none;
 }
 
-input[type="text"]{
-
+input[type="text"]:focus{
+    border-inline-start: #47b350 5px solid;
+        
 }
-
 
 .double{
     flex-basis: 49.8%;
@@ -104,3 +107,25 @@ input[type="submit"]{
     border: none;
     color: white;
 }
+
+input[type="submit"]:hover{
+    background-color: forestgreen;
+}
+input[type="submit"]:active{
+    background-color: green;
+}
+
+/* Firefox > 19 change the place holder on focus */
+input::-moz-placeholder {
+    color: black;
+    opacity: 100;
+    
+}
+input:focus::-moz-placeholder {
+    color: #999;
+}
+#scottylink{
+    color: #6fd3e2;
+}
+
+#scottylink:hover {text-decoration: underline; color: fuchsia;}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.BannerHeader{
+    display: inline-block;
+    width: 100%;
+    border-top: grey 10px solid;
+    padding: 20px 0px 0px 20px;
+    background-color: red;
+
+    
+}
+
+.NavBar{
+    float: right;
+
+}
+
+
+.NavBar a{
+    float:left;
+    text-align: center;
+    padding: 10px 0;
+    min-width: 100px;
+    max-width: 200px;
+    text-decoration: none;
+    background-color: orange;
+    border-left:1px solid white;
+
+
+}
+
+
+
+.MainContent{
+    display: block;
+    background-image: url(green_backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.flashyTitle{
+    text-align: right;
+    height: 150px;
+}
+
+.BannerHeader p{
+    text-indent: 20px;
+
+}
+.CentralContent{
+    background-color: white;
+    padding: 50px;
+}
+

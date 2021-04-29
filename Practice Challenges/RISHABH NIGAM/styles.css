@@ -1,0 +1,110 @@
+body
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: goldenrod;
+        font-size: 18px;
+        width:100%;
+        height:100%;
+        padding:0;
+    }
+.box p
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: darkgrey;
+        padding-right:0;
+
+    }
+nav a
+    {
+        padding:9px 40px;
+        display:block;
+        background-color: #d49307;
+        float:right;
+        color: honeydew;
+        text-align: center;
+        text-decoration:0;
+        border-left:1px solid white;
+
+    }
+nav
+    {
+        width: 100%;
+        right:0;
+    }
+header
+    {
+        width:100%;
+        height:125px;
+        background-color: white;
+        margin:0;
+    }
+header h1
+    {
+        margin:0;
+        padding: 12px 0 0 45px;
+    }
+header p
+    {
+        padding: 0 0 0 69px;
+        margin:0;
+    }
+.banner
+        {
+            width:100%;
+            height:200px;
+            background-color:#9bbe00;
+            margin-top:42px;
+            
+        }
+.banner h1
+        {
+            text-align:right;
+            color: white;
+            padding-right:26px;
+            padding-top: 100px;
+        }
+.banner p
+        {
+            text-align:right;
+            color: white;
+            padding-right:26px;
+        }
+.box2 
+        {
+            float:left;
+            width:25%;
+            padding-top:5%;
+        }
+.box    
+        {
+            width:65%;
+            float:left;
+            padding:5%;
+        }
+.box2 p
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: darkgrey;
+        }
+.box2 h1
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: goldenrod;
+            
+        }
+footer
+        {
+            position:fixed;
+            bottom:0;
+            width:100%;
+            background-color: orange;
+            color: white;
+        }
+.p1
+        {
+            float:right;
+        }
+footer p
+        {
+            float:left;
+        }

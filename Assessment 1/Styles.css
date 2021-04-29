@@ -1,0 +1,72 @@
+/* Always found it odd that you have to do the margin 0 here not in html body */
+*{
+    margin: 0;
+}
+
+
+html body{
+    /* That's racist */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* I have a big personality, bit of a Diva. Giant name, classic sign of an overcompensator <_< */
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+}
+
+.top{
+    padding: 50px 25px 40px;
+    background-color: #2E353A;
+}
+
+/* Not the most readable, but it's that or make classes, and that's just unnecessary */
+.top p:nth-of-type(1){
+    font-size: 1.4em;
+}
+/* How else am i to stand out next to those attention whores of Titles? */
+.top p:nth-of-type(2){
+    margin-top: 20px;
+}
+
+.middle{
+    background-color: #4367BD;
+}
+
+.bottom{
+    background-color:#71A5F3 ;
+}
+
+.middle, .bottom{
+    padding: 50px 25px;
+}
+
+
+/* All bold font types are larger */
+b{
+    font-size: 1.2em;
+}
+
+/* ditto */
+h3{
+    font-size: 1.4em;
+}
+
+/* this list needs some personal space. */
+ul li{
+    padding-top: 20px ;
+    
+}
+
+/* This line also wants personal space */
+ul li p{
+    line-height: 1.5;
+}
+
+/* That optical illusion for the light and dark blue, my mind pretending it two completely different greys lol <_< */
+.datebox{
+    display: inline-block;
+    padding: 2px ;
+    background-color: #607D8B ;
+}
