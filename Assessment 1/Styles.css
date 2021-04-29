@@ -2,8 +2,6 @@
 *{
     margin: 0;
 }
-
-
 html body{
     /* That's racist */
     color: white;
@@ -38,7 +36,7 @@ h1{
     background-color:#71A5F3 ;
 }
 
-.middle, .bottom{
+.middle, .bottom, .bottom-grey{
     padding: 50px 25px;
 }
 
@@ -70,3 +68,26 @@ ul li p{
     padding: 2px ;
     background-color: #607D8B ;
 }
+
+/* EXTENSION */
+.bottom-grey{
+    background-color: #607D8B ;
+}
+.bottom-grey .datebox{
+    background-color: white;
+    color:  #607D8B ;
+}
+
+.flexMiddle, .flexBottom{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
